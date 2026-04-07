@@ -46,4 +46,4 @@ headers = {
 response = session.post(url, json=payload, headers=headers)
 
 print(response.status_code,"\n\n\n\n")
-print(response.text[:1000])
+print(response.json())
