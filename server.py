@@ -126,5 +126,5 @@ def get_area_codes(refresh: bool = False) -> dict:
 
 
 
-if __name__ == "__main__":
-    mcp.run()
+# if __name__ == "__main__":
+#     mcp.run()
